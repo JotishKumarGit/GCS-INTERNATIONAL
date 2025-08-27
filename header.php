@@ -23,7 +23,7 @@
                     <a href="Red-Chili-Powder.php" class="dropdown-item">Red Chili Powder </a>
                     <a href="Tamarind.php" class="dropdown-item"> Tamarind </a>
                     <a href="Garlic-Bulbs.php" class="dropdown-item">Garlic Bulbs</a>
-                    <a href="Dry-Red-Chilies.php" class="dropdown-item">Dry Red Chilies</a>
+                    <a href="Dry-Red-Chilies.php" class="dropdown-item">Dry Red Chili</a>
                     <a href="Dry-Raisins.php" class="dropdown-item">Dry Raisins </a>
                     <a href="Cloves.php" class="dropdown-item">Cloves</a>
                     <a href="Clove-Powder.php" class="dropdown-item">Clove Powder</a>

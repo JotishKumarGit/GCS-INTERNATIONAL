@@ -119,7 +119,7 @@
                 <!-- Right: Content -->
                 <div class="col-md-6 fade-in delay-2">
                     <div class="content-box">
-                        <h2 class="mb-3">Premium Dry Red Chilies</h2>
+                        <h2 class="mb-3">Premium Dry Red Chili</h2>
                         <p class="mb-4">
                             Our dry red chilies are sun-dried to perfection, offering vibrant color, intense heat, and
                             natural aroma.
