@@ -37,46 +37,10 @@
 </head>
 
 <body>
-    <!-- Navbar Start -->
-    <nav
-        class="navbar navbar-expand-lg bg-white justify-content-center navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0">
-        <a href="index.html" class=" ms-lg-3">
-            <h1 class="m-0 text-primary">
-                <!-- GCS <span class="text-secondary">INTERNATIONAL</span> -->
-                 <img src="img/gcs_logo.jpeg" alt="" height="100px " width="auto" style="padding: 10px 0px;">
-            </h1>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto py-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="" class="nav-item nav-link">About</a>
-                <a href="" class="nav-item nav-link">Service</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Product</a>
-                    <div class="dropdown-menu m-0">
-                        <a href="" class="dropdown-item"> Semi Husked Coconuts</a>
-                        <a href="" class="dropdown-item">Nashik Red Onions </a>
-                        <a href="" class="dropdown-item">Red Chili Powder </a>
-                        <a href="" class="dropdown-item"> Tamarind </a>
-                        <a href="" class="dropdown-item">Garlic Bulbs</a>
-                        <a href="" class="dropdown-item">Dry Red Chilies</a>
-                        <a href="" class="dropdown-item">Dry Raisins </a>
-                        <a href="" class="dropdown-item">Cloves</a>
-                        <a href="" class="dropdown-item">Clove Powder</a>
-                        <a href="" class="dropdown-item">Cashews</a>
-                        <a href="" class="dropdown-item">Black Pepper</a>
-                    </div>
-                </div>
-                <a href="" class="nav-item nav-link">Contact</a>
-                <a href="tel:+91 9944165801"
-                    class="nav-item nav-link nav-contact bg-secondary text-white px-5 ms-lg-5">Enquery</i></a>
-            </div>
-        </div>
-    </nav>
-    <!-- Navbar End -->
+
+    <!-- Header  -->
+    <?php include('header.php') ?>
+
 
     <!-- Carousel Start -->
     <div class="container-fluid p-0 mb-5">
@@ -312,7 +276,7 @@
                             <p class="card-text">
                                 Fresh, mature coconuts with partially removed husk
                             </p>
-                            <a href="#" class="btn btn-outline-primary">View Details</a>
+                            <a href="Semi-Husked-Coconuts.php" class="btn btn-outline-primary">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -328,7 +292,7 @@
                             <p class="card-text">
                                 Naturally grown, sorted, and ready for export
                             </p>
-                            <a href="#" class="btn btn-outline-primary">View Details</a>
+                            <a href="Nashik-Red-Onions.php" class="btn btn-outline-primary">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -342,7 +306,7 @@
                             <p class="card-text">
                                 Pure and spicy, perfect for enhancing every dish
                             </p>
-                            <a href="#" class="btn btn-outline-primary">View Details</a>
+                            <a href="Red-Chili-Powder.php" class="btn btn-outline-primary">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -356,7 +320,7 @@
                             <p class="card-text">
                                 Pure tamarind pods with a perfect balance of sourness
                             </p>
-                            <a href="#" class="btn btn-outline-primary">View Details</a>
+                            <a href="Tamarind.php" class="btn btn-outline-primary">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -371,7 +335,7 @@
                             <p class="card-text">
                                 Fresh, aromatic garlic bulbs with robust flavor
                             </p>
-                            <a href="#" class="btn btn-outline-primary">View Details</a>
+                            <a href="Garlic-Bulbs.php" class="btn btn-outline-primary">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -382,11 +346,11 @@
                         <img src="img/Dry-Red-Chilies.jpg" class="card-img-top" alt="Mixed Pulses"
                             style="height: 250px; object-fit: cover;" />
                         <div class="card-body text-center">
-                            <h5 class="card-title text-primary">Dry Red Chilies</h5>
+                            <h5 class="card-title text-primary">Dry Red Chili</h5>
                             <p class="card-text">
                                 Perfect for adding heat and color to any dish
                             </p>
-                            <a href="#" class="btn btn-outline-primary">View Details</a>
+                            <a href="Dry-Red-Chilies.php" class="btn btn-outline-primary">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -401,7 +365,7 @@
                             <p class="card-text">
                                 Soft, chewy raisins packed with natural goodness
                             </p>
-                            <a href="#" class="btn btn-outline-primary">View Details</a>
+                            <a href="Dry-Raisins.php" class="btn btn-outline-primary">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -416,7 +380,7 @@
                             <p class="card-text">
                                 Perfect for seasoning, medicinal, and culinary use
                             </p>
-                            <a href="#" class="btn btn-outline-primary">View Details</a>
+                            <a href="Cloves.php" class="btn btn-outline-primary">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -431,7 +395,7 @@
                             <p class="card-text">
                                 Ideal for seasoning, baking, and herbal blends
                             </p>
-                            <a href="#" class="btn btn-outline-primary">View Details</a>
+                            <a href="Clove-Powder.php" class="btn btn-outline-primary">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -446,11 +410,11 @@
                             <p class="card-text">
                                 Premium quality cashews for snacking and cooking
                             </p>
-                            <a href="#" class="btn btn-outline-primary">View Details</a>
+                            <a href="Cashews.php" class="btn btn-outline-primary">View Details</a>
                         </div>
                     </div>
                 </div>
-                <!-- Product 7: Pulses -->
+                <!-- Product 11: Pulses -->
                 <div class="col-lg-3 wow slideInUp" data-wow-delay="0.3s">
                     <div class="card border border-primary h-100 shadow-sm">
                         <!-- Product Image -->
@@ -461,7 +425,22 @@
                             <p class="card-text">
                                 Sun-dried peppercorns packed with natural oils
                             </p>
-                            <a href="#" class="btn btn-outline-primary">View Details</a>
+                            <a href="Black-Pepper.php" class="btn btn-outline-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 11: Pulses -->
+                <div class="col-lg-3 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="card border border-primary h-100 shadow-sm">
+                        <!-- Product Image -->
+                        <img src="img/green-chilli.webp" class="card-img-top" alt="Mixed Pulses"
+                            style="height: 250px; object-fit: cover;" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-primary">Green Chili</h5>
+                            <p class="card-text">
+                                Spacked with natural oils, add to the intensity of chili.
+                            </p>
+                            <a href="green-chili.php" class="btn btn-outline-primary">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -639,22 +618,22 @@
             <div class="row g-5 justify-content-center align-items-center">
                 <div class="col-lg-7 wow slideInUp" data-wow-delay="0.3s">
                     <div class="bg-light rounded p-5">
-                        <form>
+                        <form onsubmit="sendToWhatsApp(); return false;">
                             <div class="row g-3">
                                 <div class="col-6">
-                                    <input type="text" class="form-control border-0 px-4" placeholder="Your Name"
-                                        style="height: 55px;">
+                                    <input type="text" id="name" class="form-control border-0 px-4"
+                                        placeholder="Your Name" style="height: 55px;">
                                 </div>
                                 <div class="col-6">
-                                    <input type="email" class="form-control border-0 px-4" placeholder="Your Email"
-                                        style="height: 55px;">
+                                    <input type="email" id="email" class="form-control border-0 px-4"
+                                        placeholder="Your Email" style="height: 55px;">
                                 </div>
                                 <div class="col-12">
-                                    <input type="text" class="form-control border-0 px-4" placeholder="Subject"
-                                        style="height: 55px;">
+                                    <input type="text" id="subject" class="form-control border-0 px-4"
+                                        placeholder="Subject" style="height: 55px;">
                                 </div>
                                 <div class="col-12">
-                                    <textarea class="form-control border-0 px-4 py-3" rows="8"
+                                    <textarea class="form-control border-0 px-4 py-3" rows="8" id="message"
                                         placeholder="Message"></textarea>
                                 </div>
                                 <div class="col-12">
@@ -670,8 +649,8 @@
                             <i class="bi bi-geo-alt fs-1 text-primary me-3"></i>
                             <div class="text-start">
                                 <h5 class="mb-1">Our Office</h5>
-                                <span style="font-size: small;">NO.25B , CO-OPERATIVE  
-                                     COLONY2ND CROSS STREET,KRISHNAGIRI,KRISHNAGIRI,TAMIL
+                                <span style="font-size: small;">NO.25B , CO-OPERATIVE
+                                    COLONY2ND CROSS STREET,KRISHNAGIRI,KRISHNAGIRI,TAMIL
                                     NADU,,635001</span>
                             </div>
                         </div>
@@ -702,104 +681,6 @@
     </div>
     <!-- Contact End -->
 
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light mt-5 py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container pt-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="text-white mb-4">GCS INTERNATIONAL</h3>
-                    <div class="d-flex flex-column justify-content-start">
-                        <p>
-                            GCS INTERNATIONAL is a trusted name in the agro-industry, specializing in the supply and
-                            distribution of high-quality spices, dry fruits, fresh produce, and other essential agro
-                            commodities.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="text-white mb-4">Popular Links</h3>
-                    <div class="d-flex flex-column justify-content-start">
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About
-                            Us</a>
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our
-                            Services</a>
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest
-                            Blog</a>
-                        <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact
-                            Us</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="text-white mb-4">Get In Touch</h3>
-                    <p class="mb-2">
-                        <i class="bi bi-geo-alt text-primary me-2"></i>NO.25B , CO-OPERATIVE COLONY2ND CROSS STREET,KRISHNAGIRI,KRISHNAGIRI,TAMIL NADU,,635001
-                    </p>
-                    <p class="mb-2">
-                        <i class="bi bi-envelope-open text-primary me-2"></i>  chandhome65@gmail.com
-                    </p>
-                    <p class="mb-0">
-                        <i class="bi bi-telephone text-primary me-2"></i>+91 9655378498
-                    </p>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="text-white mb-4">Follow Us</h3>
-                    <div class="d-flex">
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i
-                                class="fab fa-twitter fw-normal"></i></a>
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i
-                                class="fab fa-facebook-f fw-normal"></i></a>
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i
-                                class="fab fa-linkedin-in fw-normal"></i></a>
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded" href="#"><i
-                                class="fab fa-instagram fw-normal"></i></a>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <form class="mx-auto" style="max-width: 600px">
-                        <div class="input-group">
-                            <input type="text" class="form-control border-white p-3" placeholder="Your Email" />
-                            <button class="btn btn-primary px-4">Sign Up</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid bg-primary text-light py-4">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-md-6 text-center text-md-start">
-                    <p class="mb-md-0">
-                        &copy;
-                        <a class="text-white border-bottom" href="#">GCS INTERNATIONAL</a>.
-                        All Rights Reserved.
-                    </p>
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <p class="mb-0">
-                        Designed by
-                        <a class="text-white border-bottom" href="https://trade4export.com">Trade4Export</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Footer End -->
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-secondary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
-
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-</body>
-
-</html>
+    <!-- Footer  -->
+    <?php include('footer.php') ?>
